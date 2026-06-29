@@ -1,162 +1,155 @@
-# 📊 GlowMart Nigeria Ltd – Sales vs Inventory Analytics Dashboard
+# 📊 GlowMart Nigeria Ltd: Sales vs Inventory Analytics Dashboard | Power BI
 
-## Project Overview
-
-This project was completed as part of the **SkillAhead Data Analytics Challenge**, where participants were required to resolve a business conflict between the Sales and Inventory departments of GlowMart Nigeria Ltd using data analytics and Power BI.
-
-The objective was not only to build an interactive dashboard but also to identify the root cause of the conflict and provide data-driven recommendations that would support future inventory allocation decisions.
+A Business Intelligence solution developed using **Power BI**, **DAX**, and **data storytelling** to resolve the Sales vs Inventory allocation conflict at GlowMart Nigeria Ltd.
 
 ---
 
-## Business Problem
+# 📊 Dashboard Preview
 
-GlowMart Nigeria Ltd operates across five major Nigerian cities with over 15,000 sales transactions recorded between 2022 and 2024.
+## Executive Performance Dashboard
 
-A disagreement arose between two departments:
+<img width="932" height="500" alt="executive-dashboard png" src="https://github.com/user-attachments/assets/988c8bc8-4ef9-44e5-bae2-627d0c08c156" />
 
-* **Sales Team:** Claimed that revenue was being lost because high-demand cities were not receiving enough inventory.
-* **Inventory Team:** Argued that inventory was allocated equally based on the forecasts provided by Sales.
-
-Management required a Business Intelligence solution capable of determining whether the problem was caused by poor inventory planning or inaccurate sales assumptions.
 
 ---
 
-## Project Objectives
+## Sales vs Inventory Conflict Resolution
 
-The dashboard was designed to:
+<img width="931" height="499" alt="conflict-resolution png" src="https://github.com/user-attachments/assets/5bd66a7c-e7d2-4810-9a1e-77f3344499a7" />
 
-* Build a proper Star Schema data model.
-* Measure overall business performance using key KPIs.
-* Identify sales performance by city, brand, product, and customer segment.
-* Resolve the Sales vs Inventory conflict with data-backed evidence.
-* Recommend a more effective inventory allocation strategy.
 
 ---
 
-## Dataset
+## Customer & Product Intelligence
 
-The solution uses four related tables:
+<img width="931" height="499" alt="customer-product-intelligence png" src="https://github.com/user-attachments/assets/af9a90e1-64dd-4b65-8168-ee0c8c552150" />
 
-* Sales (Fact Table)
-* Customers
-* Products
-* Date
-
-Dataset Summary:
-
-* 15,000 Transactions
-* 500 Customers
-* 90 Products
-* 4 Brands
-* 5 Cities
-* Analysis Period: 2022–2024
 
 ---
 
-## Tools Used
+## Strategic Recommendations & Executive Summary
 
-* Power BI
+<img width="931" height="485" alt="Recommendations png" src="https://github.com/user-attachments/assets/d966720f-6ebe-425c-a98f-be169a9df8c0" />
+
+
+---
+
+# 📄 Dashboard Report
+
+Download the complete project report below:
+
+**[]**
+
+---
+
+# Business Problem
+
+GlowMart Nigeria Ltd experienced a conflict between the Sales and Inventory departments.
+
+The Sales team argued that high-demand cities were losing sales because inventory was not stocked according to customer demand, while the Inventory team maintained that stock was allocated based on the forecasts provided by Sales.
+
+Management requested a Business Intelligence solution capable of identifying the root cause of the conflict and providing data-driven recommendations for future inventory allocation.
+
+---
+
+# Project Objectives
+
+This project aims to:
+
+* Build a Star Schema data model.
+* Analyze sales performance across cities, brands, products, and customers.
+* Resolve the Sales vs Inventory conflict using data.
+* Recommend an improved inventory allocation strategy.
+* Support better business decision-making through interactive dashboards.
+
+---
+
+# Dataset Overview
+
+The analysis covers:
+
+* **15,000 Sales Transactions**
+* **500 Customers**
+* **90 Products**
+* **4 Brands**
+* **5 Cities**
+* **Analysis Period:** 2022–2024
+
+---
+
+# Tools & Technologies
+
+* Power BI Desktop
 * Power Query
 * DAX
 * Data Modeling (Star Schema)
+* Data Visualization
 * Business Intelligence
 * Data Storytelling
 
 ---
 
-## Dashboard Pages
+# Dashboard Pages
 
 ### 1. Executive Performance Dashboard
 
-Provides a high-level overview of business performance including:
-
-* Total Revenue
-* Gross Profit
-* GP Margin
-* Average Order Value
-* Transactions
-* Units Sold
-* Monthly Revenue Trend
-* Revenue by City
-* Revenue by Brand
-
----
+Provides an overview of business performance using KPIs such as Total Revenue, Gross Profit, GP Margin, Transactions, Average Order Value, Units Sold, Revenue Trend, Revenue by City, and Revenue by Brand.
 
 ### 2. Sales vs Inventory Conflict Resolution
 
-Focuses on resolving the business problem through:
-
-* Revenue by City
-* Units Sold by City
-* Revenue Contribution
-* Brand Performance by City
-* Inventory Allocation Gap Analysis
-* Recommended Inventory Allocation
-
----
+Compares revenue contribution, units sold, inventory allocation, and recommended stock allocation to identify the cities requiring additional inventory support.
 
 ### 3. Customer & Product Intelligence
 
-Analyzes customer behaviour and product performance using:
+Analyzes customer demographics, purchasing behaviour, product performance, and revenue contribution to identify high-value customers and top-performing products.
 
-* Revenue by Age Group
-* Revenue by Gender
-* Revenue by Product
-* Revenue per Customer
-* Transactions per Customer
-* Top Products
-* Discount vs Revenue Analysis
+### 4. Strategic Recommendations & Executive Summary
 
----
-
-### 4. Strategic Recommendations
-
-Summarizes the business findings and provides practical recommendations for improving inventory planning and operational efficiency.
+Summarizes the key findings and presents actionable recommendations to improve inventory allocation and business performance.
 
 ---
 
 # Key Business Insights
 
-* GlowMart generated **₦652.6 Million** in revenue from **15,000 transactions**.
-* Gross Profit reached **₦180.4 Million**, representing a **27.64% Gross Profit Margin**.
-* Port Harcourt generated the highest revenue and product demand, while inventory allocation remained equal across all cities.
-* BrandA was the highest-performing brand, contributing approximately **₦200 Million** in revenue.
-* Customers aged **46+** represented the highest revenue-generating customer segment.
-* The analysis confirmed that inventory allocation was not aligned with actual customer demand.
+* GlowMart generated **₦652.6 Million** in Total Revenue.
+* Gross Profit reached **₦180.4 Million**, representing a **27.64% GP Margin**.
+* Port Harcourt recorded the highest revenue (**₦141 Million**) and product demand.
+* BrandA was the strongest-performing brand, generating approximately **₦200 Million** in revenue.
+* Customers aged **46+** contributed the highest revenue among all customer segments.
+* Inventory allocation did not reflect actual customer demand across cities.
 
 ---
 
-# Recommendations
+# Business Recommendations
 
-* Adopt a demand-based inventory allocation strategy instead of equal distribution.
-* Prioritize inventory replenishment for top-performing brands and products.
+* Adopt a demand-driven inventory allocation strategy based on actual sales performance.
+* Prioritize replenishment of top-performing brands and products.
 * Focus customer retention initiatives on high-value customer segments.
-* Establish a monthly Sales & Inventory Planning (S&OP) process to improve forecasting and collaboration.
+* Establish a monthly Sales & Inventory Planning (S&OP) process to improve collaboration and forecasting accuracy.
 
 ---
 
 # Conclusion
 
-The analysis showed that neither the Sales nor the Inventory team was entirely wrong. While inventory was distributed equally across all cities, customer demand varied significantly by location.
-
-By using data-driven inventory allocation, GlowMart can reduce stock-outs, improve product availability, strengthen collaboration between departments, and increase overall business performance.
+The analysis confirms that the conflict between Sales and Inventory was driven by a mismatch between inventory allocation and actual customer demand. While inventory was distributed equally across cities, customer demand varied significantly by location. Implementing a demand-driven inventory strategy will improve stock availability, reduce lost sales, and support sustainable business growth.
 
 ---
 
-## Repository Contents
+# Repository Contents
 
-* Power BI Dashboard (.pbix)
-* Dashboard Report (PDF)
+* README.md
+* GlowMart Dashboard.pbix
+* GlowMart Analysis.pdf
 * Dataset
 * Dashboard Screenshots
-* README Documentation
 
 ---
 
-## Author
+# Author
 
 **Oladele Oluwafeyikemi**
 
-Data Analyst | Power BI | SQL | Excel
+**Aspiring Data Analyst | Power BI | SQL | Excel | Data Visualization**
 
 Thank you for taking the time to review this project. Feedback and suggestions are always welcome.
+
