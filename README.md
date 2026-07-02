@@ -38,7 +38,7 @@ A Business Intelligence solution developed using **Power BI**, **DAX**, and **da
 
 Download the complete project report below:
 
-**[]**
+**[file:///C:/Users/kkola/Downloads/glowmart-analysis.pdf.pdf]**
 
 ---
 
